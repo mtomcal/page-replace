@@ -1,0 +1,21 @@
+{
+    "name": "mtomcal/pagereplace",
+    "description": "Replace Contents of Pages with given text",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael A Tomcal",
+            "email": "michael@twoeyetech.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+      "psr-0": {
+        "PageReplace\\": [
+          "lib/"
+        ]
+      }
+    }
+}
