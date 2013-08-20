@@ -46,7 +46,7 @@ angular.module('PageReplace')
         function (data) {
           if (data.result == true) {
             $scope.msgclass = "updated";
-            $scope.message = "Successfully replaced text in" + data.title;
+            $scope.message = "Successfully replaced text in " + data.title;
             $scope.replaceLoader = false;
             return;
           }
