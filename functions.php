@@ -16,7 +16,7 @@ function pagereplace_render_admin() {
 
 function pagereplace_admin_page() {
 	global $pagereplace_settings;
-	$pagereplace_settings = add_options_page(__('Page Replace', 'pagereplace'), __('Page Replace', 'pagereplace'), 'manage_options', 'pagereplace', 'pagereplace_render_admin');
+	$pagereplace_settings = add_submenu_page('tools.php', __('Page Replace', 'pagereplace'), __('Page Replace', 'pagereplace'), 'edit_others_posts', 'pagereplace', 'pagereplace_render_admin');
 }
 add_action('admin_menu', 'pagereplace_admin_page');
 
