@@ -84,7 +84,7 @@ function pagereplace_find_replace($content, $find, $replace) {
 
 function pagereplace_replace_ajax() {
   
-  $req = new PageReplace\Request();
+  $req = new \PageReplace\Request();
 
   if (!$req->checkSecurity()) {
     die('0');
