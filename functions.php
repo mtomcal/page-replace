@@ -56,7 +56,7 @@ add_action('admin_enqueue_scripts', 'pagereplace_load_scripts');
 
 function pagereplace_process_ajax() {
   
-  $req = new PageReplace\Request();
+  $req = new \PageReplace\Request();
 
   if (!$req->checkSecurity()) {
     die('0');
